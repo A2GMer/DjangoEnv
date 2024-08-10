@@ -32,7 +32,7 @@ Follow these steps to set up your development environment:
    vi .env
    ```
    Add following sentence to set environment variable.
-   
+
    `SRC_PATH = ./src`
 
 3. **Build and run the Docker containers:**
@@ -73,10 +73,6 @@ Here's a quick overview of the project structure:
 ├── docker-compose.yml # Docker Compose configuration
 └── README.md          # Project documentation
 ```
-
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ## 🤝 Contributing
 
