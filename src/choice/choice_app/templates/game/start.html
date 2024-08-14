@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>ゲームスタート</title>
+</head>
+<body>
+    <h1>ゲームスタート</h1>
+    <p>ゲームを始めるには、下のボタンをクリックしてください。</p>
+    <form method="post">
+        {% csrf_token %}
+        <button type="submit">ゲーム開始</button>
+    </form>
+</body>
+</html>

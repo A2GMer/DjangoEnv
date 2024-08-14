@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>画面 {{ screen.screen_id }}</title>
+</head>
+<body>
+    <h1>画面 {{ screen.screen_id }}</h1>
+    <p>ここに到達する確率: {{ screen.probability }}%</p>
+    <p>豆知識: {{ screen.fun_fact }}</p>
+
+    <form method="post">
+        {% csrf_token %}
+        <button type="submit" name="choice" value="option1">選択肢1</button>
+        <button type="submit" name="choice" value="option2">選択肢2</button>
+    </form>
+</body>
+</html>
