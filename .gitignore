@@ -86,4 +86,5 @@ __pycache__/
 local_settings.py
 
 .env
+/src/my_project/.pass
 db.sqlite3
