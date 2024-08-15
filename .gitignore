@@ -88,3 +88,7 @@ local_settings.py
 .env
 /src/my_project/.pass
 db.sqlite3
+.vscode
+staticfiles
+*.py[co]
+local_settings.py
